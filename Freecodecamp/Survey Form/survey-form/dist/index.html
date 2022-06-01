@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form!</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+ <figure id="img-div" src="https://www.agdaily.com/wp-content/uploads/2021/01/bg-vegan-wording-001-xamnesiacx84.jpg" alt="vegan">
+   <div id="image">
+     <div id="img-caption"> Definition of vegan</div> 
+    <h1 id="title">VEGAN LIFE</h1>
+    <p id="description">The Difference Between Vegetarian, Vegan, and Other Diets </p>
+   </div>   
+  <form id="survey-form">
+     <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="enter your name" required>
+     </div>
+     <div class="form-group">
+      <label id="email-label" for="email">EMAIL</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="enter your email" required>
+     </div>
+     <div class="form-group">
+      <label id="number-label" for="number">Number</label>
+      <input type="number" name="number" id="number" min="0" max="9" class="form-control" placeholder="number" required>
+     </div>
+     <div class="form-group">
+       <p>"Vegan" vs "Vegetarian"</p> 
+        <select id="dropdown">
+          <option selected disabled value="Are you..?">Are you..?</option>
+          <option value="Vegan">Vegan</option>
+          <option value="Vegetarian">Vegetarian</option>
+       </select>
+     <div class="form-group">
+       <p>Do you know the differences between Vegan and Vegetarian?</p>
+       <label>
+         <input name="user-recommend" value="Yes" type="radio" class="input-radio">Yes</label>
+       <label>
+         <input name="user-recommend" value="Maybe" type="radio" class="input-radio">Maybe</label>
+       <label>
+         <input name="user-recommend" value="No" type="radio" class="input-radio">No</label>
+    </div>
+    <div class="form-group"> 
+      <p>What would you like to know more about vegan life?</p>
+      <label>
+       <input name="prefer" value="Food" type="checkbox" class="input-checkbox">Food</label>
+      <label>
+        <input name="prefer" value="Health" type="checkbox" class="input-checkbox">Health</label>
+      <label>
+        <input name="prefer" value="Beauty" type="checkbox" class="input-checkbox">Beauty</label>
+      <label>
+        <input name="Apparel" value="Apparel" type="checkbox" class="input-checkbox">Apparel</label>
+    </div>
+     <p id="tribute-info">The word vegetarian sprouted up in 1839. Fruitarian ("a person who lives on fruit") ripened by 1893. In 1944, vegetarians who consume no animal or dairy products began calling themselves vegans. Then, in 1993, those who eat fish but no other meat chose pesce, the Italian word for "fish," to create the designation pescatarian. In that same year, meatatarian was served up as a word for those whose diet largely includes meat; that word is rare, however, and is usually used in informal and humorous ways, making it the type of fare not included in our dictionaries. Another fairly recent dietary word is flexitarian, a person who follows a mostly vegetarian diet but occasionally eats meat or fish.
+       <br>
+For more details visit <a id="tribute-link" href="https://www.merriam-webster.com/dictionary/vegan#other-words" target="_blank">Merriam-Webster link</a></p>
+    <div class="form-group">
+     <p>Please you can leave your comment/suggestion below</p>
+     <textarea id="comment" name="comment" class="input-textarea" placeholder="comment or suggestion?">Your comment suggestion HERE...</textarea>
+    </div>
+    <dic class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>  
+  </form>    
+ </figure>  
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

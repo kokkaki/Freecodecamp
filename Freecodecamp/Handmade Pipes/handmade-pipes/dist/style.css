@@ -1,0 +1,43 @@
+@media (max-width: 1000px)
+header {
+    flex-wrap: wrap;
+}
+body{
+  padding-top: 10%;
+  background-color: teal;
+  border: solid 15px;
+  border-radius: 35px 35px 35px 35px;
+  display: flex;
+
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: stretch;
+  align-items: center; 
+}
+#header-img {
+  width: 50px;
+}
+ul{
+  display: flex;
+  margin-inline: 50px;
+  letter-spacing: 3px;
+  vertical-align: baseline;
+}
+
+li{
+  margin: 15px;
+  color: teal;
+}
+#video{
+  margin: 30px 100px 0 100px;
+}
+#form {
+  margin: 15px 100px 50px ;
+  padding: 20px;
+}

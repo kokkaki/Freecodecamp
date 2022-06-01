@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+#main {
+  background-color: #adb5bd;
+  text-align: center;
+  margin: auto;
+  margin-right: 10% ;
+  margin-left: 10% ;
+  padding: 30px;  
+}
+
+h4 {
+  text-align: auto;
+  line-height: 4;
+  color: pink;
+}
+#tribute-info {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  text-align: left;
+}
+
+#image {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  margin-right: 0;
+  margin-top: 2%;
+  display: block;
+
+}
+#img-div {
+  padding: auto;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#img-caption{
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
